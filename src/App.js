@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import {Row, Col} from 'antd'
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Routes,
+} from 'react-router-dom';
+
+const nameOfFooter = 'footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <div style={{
+      height: "100vh",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between"
+     }}>
+     
+      <Header/>
+      <Content/>
+      <Footer name={nameOfFooter}/>
+     </div>
     </div>
   );
 }
