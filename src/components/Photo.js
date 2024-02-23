@@ -1,5 +1,8 @@
 import {useState} from 'react';
-import Luke from '../public/Luke.png'
+import Luke from '../public/Luke.png';
+import R2D2 from '../public/R2D2.png';
+import DartVader from '../public/DartVader.png';
+import Kenobi from '../public/Kenobi.png'
 
 
 function Photo() {
@@ -27,8 +30,8 @@ function Photo() {
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "right 50% top 8px",
 
-                    height: 100,
-                    width: 150,
+                    height: 300,
+                    width: 300,
                     backgroundColor: "white",
                     borderRadius: 10,
 
@@ -45,8 +48,12 @@ function Photo() {
                     </div>
                 </div>
                 <div style={{
-                    height: 100,
-                    width: 150,
+                    backgroundImage: 'url(' + R2D2 + ')',
+                    backgroundSize: 'contain',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'right 40%',
+                    height: 300,
+                    width: 300,
                     backgroundColor: "white",
                     borderRadius: 10
                 }}>
@@ -57,12 +64,17 @@ function Photo() {
                         borderTopLeftRadius: 10,
                         borderTopRightRadius: 10
                     }}>
-                        №2
+                      R2D2
                     </div>
                 </div>
                 <div style={{
-                    height: 100,
-                    width: 150,
+                    backgroundImage: 'url(' + DartVader +')',
+                    backgroundSize: 'contain',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: "right 70%",
+
+                    height: 300,
+                    width: 300,
                     backgroundColor: "white",
                     borderRadius: 10
                 }}>
@@ -73,12 +85,16 @@ function Photo() {
                         borderTopLeftRadius: 10,
                         borderTopRightRadius: 10
                     }}>
-                        №3
+                        Dart Vader
                     </div>
                 </div>
                 <div style={{
-                    height: 100,
-                    width: 150,
+                    backgroundImage: 'url(' + Kenobi +')',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'contain',
+                    backgroundPosition: 'center',
+                    height: 300,
+                    width: 300,
                     backgroundColor: "white",
                     borderRadius: 10
                 }}>
@@ -89,7 +105,7 @@ function Photo() {
                         borderTopLeftRadius: 10,
                         borderTopRightRadius: 10
                     }}>
-                        №4
+                        Obi Wan Kenobi
                     </div>
                 </div>
 
