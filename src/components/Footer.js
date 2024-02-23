@@ -2,7 +2,7 @@ function Footer(props) {
     return (
         <div>
             <div style={{border: "1px solid black"}}>
-                {props.name}
+                {props.name} !
             </div>
         </div>
     )
