@@ -1,25 +1,33 @@
-import StarWars from '../public/StarWars.png'
+import StarWars from "../public/StarWars.png";
 
 function Main() {
-return (
+  return (
     <>
-         <div style={{
-                display: "flex",
-                justifyContent: "space-around",
-                alignItems: "center",
-                backgroundColor: "#3f3f3f"
-                }}>
-
-            <div style={{
-                backgroundImage: 'url(' + StarWars +')',
-                backgroundSize: 'contain'
-            }}>
-            </div>    
-          
-        </div>
-    Main page
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          alignItems: "center",
+          backgroundColor: "#3f3f3f",
+        }}
+      >
+        <div
+          style={{
+            backgroundImage: "url(" + StarWars + ")",
+            backgroundSize: "contain",
+          }}
+        ></div>
+      </div>
+      «Звёздные во́йны» (англ. Star Wars, МФА: [stɑːɹ wɔːɹz]) — медиафраншиза в
+      жанре эпическая космическая опера, включающая в себя 12 художественных
+      фильмов (9 эпизодов основной саги, также известна как «Сага Скайуокеров»,
+      2 фильма «историй» и 1 анимационный), а также игровые и анимационные
+      сериалы, игровые телефильмы, документальные фильмы, книги, комиксы,
+      видеоигры, аттракционы, игрушки и прочие произведения, созданные в рамках
+      единой фантастической вселенной «Звёздных войн», задуманной и
+      реализованной американским режиссёром Джорджем Лукасом в конце 1970-х
+      годов, позднее расширенной.
     </>
-)
-
+  );
 }
-export default Main
+export default Main;

@@ -1,10 +1,18 @@
-.header-link{
-    color: #ffffffc7;
-    text-decoration: none;
-    transition: 0.2s;
-  }
-  .header-link:hover{
-    color: #ffffff;
-    transition: 0.2s;
-  }
-  
+.header-link {
+  color: #ffffffc7;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.header-link:hover {
+  color: #ffffff;
+  transition: 0.2s;
+}
+.footer-link {
+  color: #ffffffc7;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.footer-link:hover {
+  color: #ffffff;
+  transition: 0.2s;
+}
