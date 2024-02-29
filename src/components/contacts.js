@@ -10,7 +10,7 @@ function Contacts() {
           display: "flex",
           justifyContent: "space-around",
           alignItems: "center",
-          backgroundColor: "#3f3f3f",
+          backgroundColor: "white",
         }}
       >
         <div
@@ -26,17 +26,9 @@ function Contacts() {
             borderRadius: 10,
           }}
         >
-          <div
-            style={{
-              backgroundColor: "white",
-              display: "flex",
-              justifyContent: "center",
-              borderTopLeftRadius: 10,
-              borderTopRightRadius: 10,
-            }}
-          >
-            VK
-          </div>
+          <a href="https://vk.com/hersobakl" class="link" target="blank">
+            <svg class="vk"></svg>
+          </a>
         </div>
         <div
           style={{
@@ -45,23 +37,15 @@ function Contacts() {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "right 50% top 8px",
 
-            height: 300,
-            width: 300,
+            height: 350,
+            width: 350,
             backgroundColor: "white",
             borderRadius: 10,
           }}
         >
-          <div
-            style={{
-              backgroundColor: "white",
-              display: "flex",
-              justifyContent: "center",
-              borderTopLeftRadius: 10,
-              borderTopRightRadius: 10,
-            }}
-          >
-            Telegram
-          </div>
+          <a href="https://t.me/hersobakl" class="link" target="blank">
+            <svg class="TG"></svg>
+          </a>
         </div>
       </div>
       ;

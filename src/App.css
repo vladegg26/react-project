@@ -8,11 +8,11 @@
   transition: 0.2s;
 }
 .footer-link {
-  color: #ffffffc7;
+  color: #737373;
   text-decoration: none;
   transition: 0.2s;
 }
 .footer-link:hover {
-  color: #ffffff;
+  color: #064e9f;
   transition: 0.2s;
 }

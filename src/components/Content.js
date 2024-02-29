@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import MyTable from "./MyTable";
 import Main from "./Main";
 import Photo from "./Photo";
-import Contacts from "./contacts";
+import Contacts from "./Contacts";
 
 function Content() {
   return (

@@ -5,7 +5,7 @@ function Footer(props) {
     <div>
       <div
         style={{
-          backgroundColor: "#064e9f",
+          backgroundColor: "#d5e2e9",
           display: "flex",
           alignItems: "center",
         }}
@@ -15,7 +15,7 @@ function Footer(props) {
         </div>
         <div style={{ marginLeft: 20, padding: 10 }}>
           <Link
-            to="/contacts"
+            to="/Contacts"
             style={{ marginRight: "10px" }}
             className="footer-link"
           >
